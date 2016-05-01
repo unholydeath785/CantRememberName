@@ -1,0 +1,25 @@
+body,html {
+  margin:0px;
+  padding:0px;
+  @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 0.3;
+  font-weight: 300;
+  overflow-x: hidden;
+}
+
+section {
+  position: relative;
+}
+
+@import '1-tools/functions.scss';
+@import '1-tools/mixins.scss';
+@import '1-tools/variables.scss';
+
+@import '2-sections/header.scss';
+@import '2-sections/about.scss';
+@import '2-sections/info.scss';
+@import '2-sections/news.scss';
+
+@import '3-modules/menu.scss';
+@import '3-modules/slider.scss';
